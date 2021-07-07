@@ -1,38 +1,53 @@
-.App {
+body{
+  background: linear-gradient(to right, #ff4b1f, #ff9068);
+}
+
+.container{
+  max-width: 1200px;
+  padding-top: 20px;
+  margin:0 auto
+}
+
+.container h1{
   text-align: center;
+
+}
+.card{
+   background: linear-gradient(to right, #ff4b1f, #ff9068);
+   padding: 20px 30px;
+   border-radius: 5px;
+   width: 500px;
+   margin :0 auto;
+   margin-bottom: 30px;
+}
+.card{
+  background: linear-gradient(to right, #ff4b1f, #ff9068);
+  padding: 20px 30px;
+  border-radius: 5px;
+  width: 500px;
+  margin :0 auto;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card label{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+.card input{
+  width: 100%;
+  border-radius: 3px;
+  border: solid 2px gray;
+  margin-bottom: 15px;
+  height: 40px;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card button{
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
 }
